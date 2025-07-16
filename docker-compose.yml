@@ -11,7 +11,7 @@ services:
       - SPRING_PROFILES_ACTIVE=prod
     networks:
       - app-network
-
+  
   frontend:
     build:
       context: ./frontend
